@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(40, 163, 77);
+    height: 88px;
+    padding-top: 30px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+.login{
+    float: right;
+    font-size: 24px;
+    margin: 5px 44px 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar-low{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-item{
+    display: flex;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 0 0 30px;
+    cursor: pointer;
+}
+
+.welcome{
+    margin-left: 480px;
+    font-size: 24px;
+}
+
+.checkout{
+    font-size: 24px;
+}
+
+.product-card{
+    width: 80%;
+    margin: 10px 0 0 100px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.product-card img{
+    width: 150px;
+    height: 150px;
+    margin: 20px 0 10px 40px;
+    box-shadow: 4px 4px rgba(0, 0, 0, .2);
+}
+
+.product-name{
+    margin: 0px 0px 0 40px;
+    font-size: 24px;
+}
+
+.price{
+    margin: 0px 0px 10px 80px;
+    font-size: 21px;
+    color: orangered;
+}
+
+.quantity{
+    margin: 110px 0 0 30px;
+    font-size: 20px;
+}
+
+.tong{
+    margin: 110px 0 0 30px;
+    font-size: 20px;
+}
+
+.button{
+    margin: 100px 40px 0 250px;
+    width: 250px;
+    height: 60px;
+}
+
+.button input{
+    width: 100px;
+    height: 100%;
+    border-radius: 15px;
+    background-color:rgb(40, 163, 77) ;
+
+}
+
+.total{
+    margin: 30px 0 0 110px;
+    font-size: 24px;
+}
+
+.container a{
+    margin: 20px 0 0 110px;
+    color: black;
+    font-size: 24px;
+}
